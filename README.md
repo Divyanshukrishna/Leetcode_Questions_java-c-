@@ -1,8 +1,13 @@
-<h2><a href="https://leetcode.com/problems/reverse-integer/description/">1.Reverse Integer</a></h2><h3>Easy</h3><hr><div><p>Given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
-
-<p>You may assume that each input would have <strong><em>exactly</em> one solution</strong>, and you may not use the <em>same</em> element twice.</p>
+<h2><a href="https://leetcode.com/problems/reverse-integer/description/">1.Reverse Integer</a></h2><h3>Easy</
 
 <p>You can return the answer in any order.</p>
+
+<div> <hr> <p> Given a signed 32-bit integer <code> x </code>, return <code> x </code> with its digits <em> reversed </em>. If reversing <code> x </code> causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.  </p>
+
+ <p> <strong>Assume the environment does not allow you to store 64-bit integers (signed or unsigned).</strong></p>
+
+
+
 
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
@@ -14,14 +19,14 @@
 
 <p><strong class="example">Example 2:</strong></p>
 
-<pre><strong>Input:</strong> x=123
-<strong>Output:</strong> 
+<pre><strong>Input:</strong> x = -123
+<strong>Output:</strong> -321
 </pre>
 
 <p><strong class="example">Example 3:</strong></p>
 
-<pre><strong>Input:</strong> nums = [3,3], target = 6
-<strong>Output:</strong> [0,1]
+<pre><strong>Input:</strong> x = 120
+<strong>Output:</strong> 21
 </pre>
 
 <p>&nbsp;</p>
