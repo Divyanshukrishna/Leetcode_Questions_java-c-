@@ -3,7 +3,7 @@ class Solution {
     public:
         bool isHappy(int n){
     
-      int sum = 0;
+      int sum = 0   ;
     
       while (n!= 0) {
         int digit = n % 10;
